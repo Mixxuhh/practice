@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height:70px;
+    background-color:darkorchid;
+    color:beige;
+}
+
+h1,
+p {
+    text-align: center;
+}
+
+.center-container {
+    position: relative;
+    height: 100vh;
+}
+
+.circle-img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+
+    position: absolute;
+    left: 10%;
+    top: 20%;
+    transform: translateY(-80%);
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.page-container {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 200px
+}
+
+.grid-item {
+    width: 200px;
+    height:200px;
+    border: 2px solid black;
+    color: blueviolet;
+    text-align: center;
+    line-height: 100px;
+    background-position: center;
+    background-size: cover;
+}
+
+#spring {
+    background-image: url(./images/spring.jpg);
+}
+
+#summer {
+    background-image: url(./Images/summer.jpg);
+}
+
+#fall {
+    background-image: url(./Images/Fall.jpg)
+}
+
+#winter {
+    background-image: url(./Images/Winter.jpg);
+}
